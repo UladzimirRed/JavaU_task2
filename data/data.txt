@@ -1,0 +1,11 @@
+Hip-hop; Gorillaz; Tranz; 162; true
+Jazz; Jamiroquai; Cosmic girl; 244; true
+Rock; DavidBowie; SpaceOddity; 226; true
+
+a,b,c,d
+Rock; JeffersonAirplane; WhiteRabbit; 320; true
+Hip-hop; Dolphin; Один-на-один; 192; false
+Rock; PinkFloyd; Time; 420; true
+Jazz; BennyGoodman; SingSingSing; 265; false
+HIP-HOP; TylerTheCreator; November; 233; true
+Jazz; MilesDavis; BlueInGreen; 324; False

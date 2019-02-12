@@ -1,0 +1,14 @@
+Trip-hop; Massive Attack; IagainstI; 341; false
+Jazz; Jamiroquai; Cosmicgirl; 244; true
+Roo_oo_ooock; AC_DC; backinblack; 255; true
+Rock; DavidBowie; SpaceOddity; 226; true
+Rock; JeffersonAirplane; WhiteRabbit; 320; true
+
+Hip-hop; Dolphin; Один-на-один; 192; false
+
+Rock; PinkFloyd; Time; 420; true
+
+Jazz; BennyGoodman; Singsingsing; 265; false;
+
+HIP-HOP: TylerTheCreator; November; 233; true
+Jazz; MilesDavis; BlueinGreen; 324; False
