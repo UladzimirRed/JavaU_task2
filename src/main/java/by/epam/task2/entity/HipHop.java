@@ -2,13 +2,13 @@ package by.epam.task2.entity;
 
 import java.util.Objects;
 
-public class HipHop extends MusicalCompositions {
+public class HipHop extends MusicalComposition {
 
     private boolean alternativeHipHopMembership;
 
-    public HipHop(boolean alternativeHipHopMembershipe, String artist, String title, int duration) {
-        super(MusicalGenres.HIP_HOP, artist, title, duration);
-        this.alternativeHipHopMembership = alternativeHipHopMembershipe;
+    public HipHop(boolean alternativeHipHopMembership, String artist, String title, int duration) {
+        super(MusicalGenre.HIP_HOP, artist, title, duration);
+        this.alternativeHipHopMembership = alternativeHipHopMembership;
     }
 
     public boolean isAlternativeHipHopMembership() {

@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class MusicValidator {
 
-    private static final Pattern LINE_PATTERN = Pattern.compile("^([\\w-]+;\\s+)+[\\w]+$");
+    private static final Pattern LINE_PATTERN = Pattern.compile("^([\\w-\\s]+;\\s+)+[\\w]+$");
 
     public static boolean validate(String line) {
         Matcher matcher = LINE_PATTERN.matcher(line);

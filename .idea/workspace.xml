@@ -2,6 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd0db977-1122-438b-a968-637d9a923824" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/action/ActionMusicCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/action/ActionMusicCollection$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/action/ActionMusicCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/MusicalComposition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/MusicalGenre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/ActionMusicCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/HipHop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/HipHop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Jazz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Jazz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalCompositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalComposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalGenres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/exception/FileReadingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/exception/FileReadingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/util/EnumExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/util/EnumExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicComporator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/task2/action/ActionMusicCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/task2/action/ActionMusicCollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/task2/util/EnumExtracktorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/task2/util/EnumExtracktorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/task2/util/MusicValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/task2/util/MusicValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/ActionMusicCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/HipHop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/HipHop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/Jazz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/Jazz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/MusicalCompositions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/MusicalGenres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/Rock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/entity/Rock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/exception/FileReadingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/exception/FileReadingException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/util/EnumExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/util/EnumExtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/util/MusicBuilder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/util/MusicBuilder$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/util/MusicBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/util/MusicBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/util/MusicComporator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/util/MusicFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/util/MusicFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/task2/util/MusicValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/task2/util/MusicValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/epam/task2/action/ActionMusicCollectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/epam/task2/action/ActionMusicCollectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/epam/task2/util/EnumExtracktorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/epam/task2/util/EnumExtracktorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/epam/task2/util/MusicValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/epam/task2/util/MusicValidatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../first-array-app/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../first-array-app/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../first-array-app/.idea/modules.xml" beforeDir="false" />
@@ -34,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,22 +86,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/HipHop.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-              <folding>
-                <element signature="method#setAlternativeHipHopMembership#0;class#HipHop#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/EnumExtractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +100,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="79" lean-forward="true" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+            <state relative-caret-position="153">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/action/ActionMusicCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/HipHop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Jazz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -82,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/controller/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,59 +152,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/data.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/EnumExtractor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Rock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/exception/FileReadingException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/ActionMusicCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/task2/action/ActionMusicCollectionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/task2/util/MusicValidatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/task2/util/EnumExtracktorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-              </folding>
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -158,8 +190,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cdD</find>
+      <find>cd</find>
+      <find>MusicalGenres</find>
+      <find>MusicalCompositions</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>MusicalComposition</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -167,25 +210,28 @@
         <option value="$PROJECT_DIR$/src/main/resources/loh4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/action/Action.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/data/data2.txt" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalGenres.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicComporator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalCompositions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicFileReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/exception/FileReadingException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/ActionMusicCollection.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicValidator.java" />
-        <option value="$PROJECT_DIR$/data/data2.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicComparator.java" />
+        <option value="$PROJECT_DIR$/data/data.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalGenre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/exception/FileReadingException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/task2/util/EnumExtracktorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/task2/util/MusicValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalCompositions.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/HipHop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Rock.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Jazz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Rock.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/task2/action/ActionMusicCollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalComposition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicFileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/util/EnumExtractor.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/controller/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/action/ActionMusicCollection.java" />
-        <option value="$PROJECT_DIR$/data/data.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/by/epam/task2/util/MusicValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/util/EnumExtractor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/epam/task2/util/EnumExtracktorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/epam/task2/action/ActionMusicCollectionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/task2/ActionMusicCollection.java" />
       </list>
     </option>
   </component>
@@ -203,6 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,6 +287,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Redzko_Task2_Option9_JUnlim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Redzko_Task2_Option9_JUnlim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Redzko_Task2_Option9_JUnlim" type="b2602c69:ProjectViewProjectNode" />
@@ -330,11 +386,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549998454483" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550086171719" />
     <property name="last.edited.regexp" value="Hip-hop; Gorillaz; Tranz; 162; true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -342,6 +397,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3137931" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="by.epam.task2.action" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -384,7 +444,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionMusicCollectionTest.findTracksInTheRangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActionMusicCollectionTest.recordTracksByGenreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Redzko_Task2_Option9_JUnlim" />
       <extension name="coverage">
         <pattern>
@@ -394,7 +454,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="by.epam.task2.action" />
       <option name="MAIN_CLASS_NAME" value="by.epam.task2.action.ActionMusicCollectionTest" />
-      <option name="METHOD_NAME" value="findTracksInTheRangeTest" />
+      <option name="METHOD_NAME" value="recordTracksByGenreTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -433,10 +493,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ActionMusicCollectionTest" />
+        <item itemvalue="JUnit.ActionMusicCollectionTest.recordTracksByGenreTest" />
         <item itemvalue="JUnit.EnumExtracktorTest" />
         <item itemvalue="JUnit.MusicValidatorTest" />
-        <item itemvalue="JUnit.ActionMusicCollectionTest" />
-        <item itemvalue="JUnit.ActionMusicCollectionTest.findTracksInTheRangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -454,18 +514,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MusicValidatorTest_validatePositiveTest - 2019.02.12 at 21h 39m 14s.xml">
-      <configuration name="MusicValidatorTest.validatePositiveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MusicValidatorTest_validatePositiveTest - 2019.02.12 at 21h 41m 29s.xml">
-      <configuration name="MusicValidatorTest.validatePositiveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumExtracktorTest_findMusicalGenreTest - 2019.02.12 at 21h 44m 13s.xml">
-      <configuration name="EnumExtracktorTest.findMusicalGenreTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumExtracktorTest_findMusicalGenreNullTest - 2019.02.12 at 21h 45m 39s.xml">
-      <configuration name="EnumExtracktorTest.findMusicalGenreNullTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnumExtracktorTest - 2019.02.12 at 21h 46m 38s.xml">
       <configuration name="EnumExtracktorTest" configurationId="JUnit" />
     </history-entry>
@@ -484,12 +532,33 @@
     <history-entry file="EnumExtracktorTest - 2019.02.12 at 22h 01m 18s.xml">
       <configuration name="EnumExtracktorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ActionMusicCollectionTest_recordTracksByGenreTest - 2019.02.13 at 21h 46m 08s.xml">
+      <configuration name="ActionMusicCollectionTest.recordTracksByGenreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionMusicCollectionTest_recordTracksByGenreTest - 2019.02.13 at 21h 46m 32s.xml">
+      <configuration name="ActionMusicCollectionTest.recordTracksByGenreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionMusicCollectionTest_recordTracksByGenreTest - 2019.02.13 at 21h 48m 00s.xml">
+      <configuration name="ActionMusicCollectionTest.recordTracksByGenreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionMusicCollectionTest - 2019.02.13 at 21h 48m 06s.xml">
+      <configuration name="ActionMusicCollectionTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22228146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,13 +566,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32950193" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32950193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32950193" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32950193" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32950193" />
@@ -635,82 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/exception/FileReadingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicComporator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalGenres.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalCompositions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding>
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Rock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
-          <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Jazz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-          <folding>
-            <element signature="method#setRepresentiveOfAcidJazz#0;class#Jazz#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/data2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -718,47 +711,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalGenres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../j.d.k 9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="938" selection-start-line="938" selection-end-line="938" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/HipHop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalComposition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="method#setAlternativeHipHopMembership#0;class#HipHop#0" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/task2/util/MusicValidatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/task2/action/ActionMusicCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/EnumExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="721">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -767,32 +763,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/task2/util/EnumExtracktorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/controller/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="323">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/task2/action/ActionMusicCollectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/task2/util/MusicValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalGenre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/exception/FileReadingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/EnumExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -801,18 +827,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/util/MusicValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="79" lean-forward="true" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/ActionMusicCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/MusicalComposition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Jazz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/HipHop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/entity/Rock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/task2/action/ActionMusicCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

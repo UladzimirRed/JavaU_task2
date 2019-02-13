@@ -2,13 +2,12 @@ package by.epam.task2.entity;
 
 import java.util.Objects;
 
-public class Rock extends MusicalCompositions {
+public class Rock extends MusicalComposition {
 
     private boolean entryInTheRockAndRollHallOfFame;
-    private int numberOfGuitarists;
 
     public Rock(boolean entryInTheRockAndRollHallOfFame, String artist, String title, int duration) {
-        super(MusicalGenres.ROCK, artist, title, duration);
+        super(MusicalGenre.ROCK, artist, title, duration);
         this.entryInTheRockAndRollHallOfFame = entryInTheRockAndRollHallOfFame;
     }
 

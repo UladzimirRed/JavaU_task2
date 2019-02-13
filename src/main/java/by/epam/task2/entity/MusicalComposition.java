@@ -2,16 +2,17 @@ package by.epam.task2.entity;
 
 import java.util.Objects;
 
-public abstract class MusicalCompositions {
+public abstract class MusicalComposition {
+
     private String artist;
     private String title;
-    private MusicalGenres musicalGenres;
+    private MusicalGenre musicalGenre;
     private int duration;
 
-    public MusicalCompositions(MusicalGenres musicalGenres, String artist, String title, int duration) {
+    public MusicalComposition(MusicalGenre musicalGenre, String artist, String title, int duration) {
         this.artist = artist;
         this.title = title;
-        this.musicalGenres = musicalGenres;
+        this.musicalGenre = musicalGenre;
         this.duration = duration;
     }
 
@@ -31,12 +32,12 @@ public abstract class MusicalCompositions {
         this.title = title;
     }
 
-    public MusicalGenres getMusicalGenres() {
-        return musicalGenres;
+    public MusicalGenre getMusicalGenres() {
+        return musicalGenre;
     }
 
-    public void setMusicalGenres(MusicalGenres musicalGenres) {
-        this.musicalGenres = musicalGenres;
+    public void setMusicalGenre(MusicalGenre musicalGenres) {
+        this.musicalGenre = musicalGenres;
     }
 
     public int getDuration() {
@@ -51,15 +52,15 @@ public abstract class MusicalCompositions {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        MusicalCompositions that = (MusicalCompositions) o;
+        MusicalComposition that = (MusicalComposition) o;
         return duration == that.duration &&
                 Objects.equals(artist, that.artist) &&
                 Objects.equals(title, that.title) &&
-                musicalGenres == that.musicalGenres;
+                musicalGenre == that.musicalGenre;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(artist, title, musicalGenres, duration);
+        return Objects.hash(artist, title, musicalGenre, duration);
     }
 }
