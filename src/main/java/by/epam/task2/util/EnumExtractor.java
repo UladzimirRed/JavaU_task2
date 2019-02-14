@@ -5,6 +5,7 @@ import by.epam.task2.entity.MusicalGenre;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+
 public class EnumExtractor {
 
     private static final Logger LOGGER = LogManager.getLogger(EnumExtractor.class);

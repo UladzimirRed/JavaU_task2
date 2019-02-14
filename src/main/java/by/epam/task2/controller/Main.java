@@ -7,7 +7,9 @@ import by.epam.task2.util.MusicFileReader;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import java.util.List;
+
 
 public class Main {
 
@@ -25,36 +27,27 @@ public class Main {
             List<MusicalComposition> compositions = reader.read(FILE_PATH);
 
             System.out.println();
-            System.out.println("NEW MUSIC CD DISK IS:");
+            System.out.println("NEW MUSIC CD DISK:");
             for (MusicalComposition mus : compositions) {
                 System.out.println(mus);
             }
 
             System.out.println();
-            System.out.println("Duration of all tracks is :");
-//            List<MusicalComposition> durationOfAllTracks = actionMusicCollection.findDurationOfAllTracks(compositions);
-//            for (MusicalComposition mus : durationOfAllTracks) {
-//                System.out.println(mus.toString());
-//            }
+            System.out.println("Duration of all tracks:");
+            int durationOfAllTracks = actionMusicCollection.findDurationOfAllTracks(compositions);
+            System.out.println(durationOfAllTracks + " (sec)");
 
             System.out.println();
-            System.out.println("CD by musical genre is :");
-            List<MusicalComposition> tracksByGenre = actionMusicCollection.recordTracksByGenre(compositions);
-            for (MusicalComposition mus : tracksByGenre) {
+            System.out.println("CD by musical genre:");
+            List<MusicalComposition> tracksByGenreAndAlphabet = actionMusicCollection.recordTracksByGenreAndAlphabet(compositions);
+            for (MusicalComposition mus : tracksByGenreAndAlphabet) {
                 System.out.println(mus.toString());
             }
 
             System.out.println();
-            System.out.println("Tracks that have a duration in the given range:" + " (min duration is " + MIN_DURATION + " &" + " max duration is " + MAX_DURATION + ")");
-            List<MusicalComposition> shortTracksList = actionMusicCollection.findTracksInTheRange(compositions, MIN_DURATION, MAX_DURATION);
+            System.out.println("Tracks that have a duration in the given range:" + " (min duration - " + MIN_DURATION + " &" + " max duration - " + MAX_DURATION + ")");
+            List<MusicalComposition> shortTracksList = actionMusicCollection.findTracksByDurationRange(compositions, MIN_DURATION, MAX_DURATION);
             for (MusicalComposition mus : shortTracksList) {
-                System.out.println(mus.toString());
-            }
-
-            System.out.println();
-            System.out.println("Tracks by alphabet is :");
-            List<MusicalComposition> sortedByAlphabetTracks = actionMusicCollection.recordTracksByAlphabet(compositions);
-            for (MusicalComposition mus : sortedByAlphabetTracks) {
                 System.out.println(mus.toString());
             }
 

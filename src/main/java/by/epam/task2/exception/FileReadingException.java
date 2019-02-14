@@ -1,7 +1,7 @@
 package by.epam.task2.exception;
 
-public class FileReadingException extends RuntimeException {
 
+public class FileReadingException extends RuntimeException {
 
     public FileReadingException(String message) {
         super(message);

@@ -2,6 +2,7 @@ package by.epam.task2.entity;
 
 import java.util.Objects;
 
+
 public abstract class MusicalComposition {
 
     private String artist;

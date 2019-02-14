@@ -1,10 +1,12 @@
 package by.epam.task2.util;
 
 import by.epam.task2.entity.MusicalGenre;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-public class EnumExtracktorTest {
+
+public class EnumExtractorTest {
 
     @Test
     public void findMusicalGenreTest (){

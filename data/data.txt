@@ -9,4 +9,4 @@ Rock; PinkFloyd; Time; 420; true
 Rock; PinkFloyd; Dogs; 1026; true
 Jazz; Benny Goodman; Sing Sing Sing; 265; false
 HIP-HOP; Tyler The Creator; November; 233; true
-Jazz; Miles Davis; Blue In Green; 324; False
+Jazz; Miles Davis; Blue In Green; 324; false

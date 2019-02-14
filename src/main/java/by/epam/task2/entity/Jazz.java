@@ -2,11 +2,12 @@ package by.epam.task2.entity;
 
 import java.util.Objects;
 
+
 public class Jazz extends MusicalComposition {
 
     private boolean representativeOfAcidJazz;
 
-    public Jazz(boolean representativeOfAcidJazz, String artist, String title, int duration) {
+    public Jazz(String artist, String title, int duration, boolean representativeOfAcidJazz) {
         super(MusicalGenre.JAZZ, artist, title, duration);
         this.representativeOfAcidJazz = representativeOfAcidJazz;
     }

@@ -3,6 +3,7 @@ package by.epam.task2.util;
 import org.junit.Assert;
 import org.junit.Test;
 
+
 public class MusicValidatorTest {
 
     @Test
@@ -12,6 +13,6 @@ public class MusicValidatorTest {
 
     @Test
     public void validateNegativeTest() {
-        Assert.assertFalse(MusicValidator.validate("Рок; Наутилус; Крылья; 350; false"));
+        Assert.assertFalse(MusicValidator.validate("просто пишу тут что хочу"));
     }
 }
