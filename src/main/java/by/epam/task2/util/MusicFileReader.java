@@ -27,7 +27,7 @@ public class MusicFileReader {
         try {
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
-                MusicalComposition composition = MusicBuilder.buildMusic(scanner.nextLine());
+                MusicalComposition composition = MusicBuilder.buildTrack(scanner.nextLine());
                 counter++;
                 if (composition != null) {
                     musicList.add(composition);

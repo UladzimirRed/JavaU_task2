@@ -18,7 +18,6 @@ public class EnumExtractorTest {
         Assert.assertNull(EnumExtractor.findMusicalGenre(null));
     }
 
-
     @Test
     public void findMusicalGenreException () {
         Assert.assertNull(EnumExtractor.findMusicalGenre("Techno"));

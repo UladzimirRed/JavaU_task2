@@ -4,9 +4,11 @@ Rock; David Bowie; Space Oddity; 226; true
 
 a,b,c,d
 Rock; Jefferson Airplane;       White Rabbit; 320; true
-Hip-hop; Dolphin; Один-на-один; 192; false
-Rock; PinkFloyd; Time; 420; true
-Rock; PinkFloyd; Dogs; 1026; true
+Hip-hop; Dolphin; Один на один; 192; false
+
+Beatles - Love Is All You Need
+Rock; Pink Floyd; Time; 420; true
+Rock; Pink Floyd; Dogs; 1026; true
 Jazz; Benny Goodman; Sing Sing Sing; 265; false
 HIP-HOP; Tyler The Creator; November; 233; true
 Jazz; Miles Davis; Blue In Green; 324; false

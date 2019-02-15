@@ -12,10 +12,9 @@ public class MusicBuilderTest {
     private MusicalComposition hiphop;
 
     @Test
-    public void buildMusicTest() {
+    public void buildTrackTest() {
 
         hiphop = new HipHop("Gorillaz", "Tranz", 162, true);
-        Assert.assertEquals(hiphop, MusicBuilder.buildMusic("Hip-hop; Gorillaz; Tranz; 162; true"));
+        Assert.assertEquals(hiphop, MusicBuilder.buildTrack("Hip-hop; Gorillaz; Tranz; 162; true"));
     }
-
 }

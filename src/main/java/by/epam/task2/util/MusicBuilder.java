@@ -7,7 +7,7 @@ public class MusicBuilder {
 
     private static final String DELIMITER = ";\\s*";
 
-    public static MusicalComposition buildMusic(String line) {
+    public static MusicalComposition buildTrack(String line) {
 
         if (!MusicValidator.validate(line)) {
             return null;
@@ -20,15 +20,21 @@ public class MusicBuilder {
             return null;
         }
 
+        MusicalComposition compositions;
+
         switch (genre) {
             case JAZZ:
-                return new Jazz(elements[1], elements[2], Integer.parseInt(elements[3]), Boolean.parseBoolean(elements[4]));
+                compositions = new Jazz(elements[1], elements[2], Integer.parseInt(elements[3]), Boolean.parseBoolean(elements[4]));
+                break;
             case ROCK:
-                return new Rock(elements[1], elements[2], Integer.parseInt(elements[3]), Boolean.parseBoolean(elements[4]));
+                compositions = new Rock(elements[1], elements[2], Integer.parseInt(elements[3]), Boolean.parseBoolean(elements[4]));
+                break;
             case HIP_HOP:
-                return new HipHop(elements[1], elements[2], Integer.parseInt(elements[3]), Boolean.parseBoolean(elements[4]));
+                compositions = new HipHop(elements[1], elements[2], Integer.parseInt(elements[3]), Boolean.parseBoolean(elements[4]));
+                break;
             default:
                 return null;
         }
+        return compositions;
     }
 }
